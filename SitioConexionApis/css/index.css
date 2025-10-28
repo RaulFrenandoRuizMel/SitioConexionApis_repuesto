@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@font-face {
+    font-family: fuenteTekoMedium;
+    src: url(../fuentes/teko/Teko-Medium.ttf);
+}
+
+@font-face {
+    font-family: fuenteTekoBold;
+    src: url(../fuentes/teko/Teko-Bold.ttf);
+}
+
+@font-face {
+    font-family: fuenteCinzelBlack;
+    src: url(../fuentes/cinzel/Cinzel-Black.otf);
+}
+
+@font-face {
+    font-family: fuenteCinzelSemiBold;
+    src: url(../fuentes/cinzel/Cinzel-Regular.otf);
+}
+
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+.call_to_action_principal {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url("../img/imagenes/JPG/puños_imperiales.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.call_to_action_principal h1 {
+    font-family: fuenteTekoBold;
+    color: white;
+
+}
+
+.mensaje_bienvenida {
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    background-color: black;
+    border: solid 3px goldenrod;
+    color: white;
+    border-radius: 15px;
+
+}
+
+.mensaje_bienvenida p {
+    text-align: center;
+    font-family: fuenteTekoMedium;
+    font-size: 2em;
+}
+
+.contenedor_formulario
+{
+    position: absolute;
+    width: 40%;     /* Se posiciona relativo al padre */
+    bottom: 0;              /* Pega el div al fondo */
+    left: 0;    
+    bottom: 20px;
+    left: 20px;
+}
+
+.formulario_log_in {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: black;
+    border: solid 3px goldenrod;
+    color: white;
+    border-radius: 15px;
+
+}
+
+.formulario_log_in p {
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+}
+
+.textoBienvenida {
+    text-align: center;
+}
+
+.textoBienvenida a {
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+}
+
+.miembro {
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.enlace_registro {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 75px;
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+    text-align: center;
+    border-left: solid 2px goldenrod;
+    border-right: solid 2px goldenrod;
+}
+
+.enlace_registro a{
+    font-family: fuenteTekoMedium;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+input{
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.separador_secciones
+{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.call_to_action_2
+{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100%;
+    background-color: #2b0a14;
+}
+.herejia_de_horus
+{
+    width: 50%;
+    height: 100%;
+}
+
+.herejia_de_horus img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.guardia_de_la_muerte
+{
+    width: 50%;
+    height: 100%;
+}
+
+.guardia_de_la_muerte img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.noticia_del_imperio
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.noticia_del_imperio h2
+{
+    text-align: center;
+    font-size: 3.5em;
+    font-family: fuenteCinzelBlack;
+    color: #e2d6b5;
+}
+
+.noticia_del_imperio h3
+{
+    text-align: center;
+    font-size: 2em;
+    font-family: fuenteCinzelSemiBold;
+    color: #e2d6b5;
+}
+
+.categoria_de_libros_herejia_de_horus
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2b0a14 ;
+}
+
+.categoria_de_libros_herejia_de_horus h1
+{
+    color: goldenrod;
+}
+
+.contenedor_libros
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+.contenedor_libros a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.plantilla_libro
+{
+    display: flex;
+    width: 400px;
+    height: auto;
+    /*background-color: #e5ce8f;*/
+    border-right: solid 2px black ;
+    margin-right: 25px;
+}
+
+.portada
+{
+    width: 40%;
+    height: 200px;
+    width: 150px;
+    /*background-color: #ffde84;*/
+    margin-right: 15px;
+}
+
+.datos_del_libro
+{
+    padding: 15px;
+    width: 55%;
+    height: auto;
+    /*background-color: #8a6605;*/
+}
+
+.titulo_del_libro
+{
+    font-family: "nexa", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22pt;
+}
+
+.autor_del_libro
+{
+    font-family: "nexa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+
+}
+.reseñas_del_libro
+{
+    font-family: "nexa", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14pt;
+}

@@ -1,0 +1,115 @@
+@font-face {
+    font-family: fuenteTekoMedium;
+    src: url(../fuentes/teko/Teko-Medium.ttf);
+}
+
+@font-face {
+    font-family: fuenteTekoBold;
+    src: url(../fuentes/teko/Teko-Bold.ttf);
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: f2f2f2;
+}
+
+.recorrido_de_paginas
+{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    align-items: center;
+    background-color: aqua;
+    font-family: fuenteTekoMedium;
+}
+
+.recorrido_de_paginas p
+{
+    font-size: 26pt;
+    font-family: fuenteTekoMedium;
+
+}
+
+.ficha_del_libro
+{
+    margin-top: 50px;
+    background-color: aquamarine;
+    height: 830px;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.ficha_del_libro .portada_contenedor
+{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(26, 255, 255);
+    margin-right: 3%;
+    border-right: solid 2px black ;
+}
+
+.portada
+{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(189, 255, 255);
+    margin-right: 5%;
+}
+
+.informacion_del_libro
+{
+    width: 75%;
+    height: 100%;
+    background-color: beige; 
+}
+
+.titulo_autor_fecha
+{
+    margin-top: 25px;
+}
+
+.autor_y_fecha
+{
+    border-bottom: solid 2px black ;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.fecha_del_libro
+{
+    width: 50%;
+    font-family: "nexa", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+}
+
+.autor_del_libro
+{
+    width: 50%;
+
+}
+
+.sinopsis
+{
+    border-bottom: solid 2px black ;
+    margin-top: 25px;
+    height: 50%;
+    margin-bottom: 25px;
+}
+
+.cantidad_y_calificacion
+{
+    border-bottom: solid 2px black;
+    height: 8%;
+}
+
+.boton_nueva_resena button
+{
+    width: 75%;
+    height: auto;
+}
