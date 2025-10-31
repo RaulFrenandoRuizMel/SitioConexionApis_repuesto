@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 @font-face {
     font-family: fuenteTekoMedium;
     src: url(../fuentes/teko/Teko-Medium.ttf);
@@ -16,8 +17,13 @@
 }
 
 @font-face {
-    font-family: fuenteTekoBold;
-    src: url(../fuentes/teko/Teko-Bold.ttf);
+    font-family: fuenteCinzelBlack;
+    src: url(../fuentes/cinzel/Cinzel-Black.otf);
+}
+
+@font-face {
+    font-family: fuenteCinzelSemiBold;
+    src: url(../fuentes/cinzel/Cinzel-Regular.otf);
 }
 
 main {
@@ -41,171 +47,24 @@ main {
 
 }
 
-.ficha_del_libro {
-    margin-top: 50px;
-    height: 745px;
-    display: flex;
-    width: 90%;
-    margin-left: 5%;
-}
-
-.ficha_del_libro .portada_contenedor {
-    width: 30%;
-    height: 100%;
-    margin-right: 3%;
-    border-right: solid 2px black;
-}
-
-.portada {
-    width: 90%;
-    height: 100%;
-    margin-right: 5%;
-}
-
-.informacion_del_libro {
-    width: 75%;
-    height: 100%;
-}
-
-.titulo_autor_fecha {
-    margin-top: 25px;
-}
-
-.autor_y_fecha {
-    border-bottom: solid 2px black;
-    width: 100%;
-    height: 50px;
-    display: flex;
-
-}
-
-.titulo_del_libro {
-    font-size: 36pt;
-}
-
-.fecha_del_libro {
-    width: 50%;
-
-    font-size: 24pt;
-
-    font-family: "nexa", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-}
-
-.autor_del_libro {
-    width: 25%;
-
-    font-family: "nexa", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-
-    font-size: 24pt;
-}
-
-.sinopsis {
-    border-bottom: solid 2px black;
-    margin-top: 25px;
-    height: 40%;
-    margin-bottom: 25px;
-}
-
-.sinopsis h2 {
-    font-size: 2.5em;
-    font-family: "nexa", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.sinopsis p {
-    font-size: 1.5em;
-    font-family: "nexa", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.cantidad_y_calificacion {
-    border-bottom: solid 2px black;
-    height: 15%;
-    display: flex;
-}
-
-.cantidad_y_calificacion p {
-    font-size: 24pt;
-    font-family: "nexa", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.nombres_cantidad_y_calificacion {
-    width: 75%;
-}
-
-.numeros_cantidad_y_calificacion {
-    width: 5%;
-}
-
-.numeros_cantidad_y_calificacion p {
-    font-family: fuenteTekoBold;
-    color: #c2a83e;
-}
-
-.icono_estrella {
-    width: 15%;
-    height: 40px;
-}
-
-.icono_estrella img {
-    width: 15%;
-    height: 40px;
-}
-
-.boton_nueva_resena button {
-    width: 40%;
-    height: 50px;
-    border-radius: 35px;
-    font-size: 2em;
-    background-color: #2f3a3f;
-    color: #c2a83e;
-}
-
-.boton_nueva_resena {
-    width: 100%;
-    height: 20%;
-    align-items: center;
-    display: flex;
-}
-
-.seccion_resena {
-    margin-top: 15px;
-    width: 100%;
-    height: 100px;
-    background-color: #2f3a3f;
-    display: flex;
-    padding: 15px;
-    align-items: center;
-}
-
-.seccion_resena h2 {
-    font-family: "nexa", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-
-    color: white;
-}
-
-.contenedorResenas {
-    width: 100%;
+.contenedor_resenas_hechas {
+    width: 60%;
     height: auto;
-    display: flex;
-    justify-content: center;
+    border-right: solid 4px #a8a8a8;
+    justify-items: center;
 }
+
+.contenedor_nueva_resena {
+    width: 30%;
+    height: auto;
+
+}
+
 
 .plantilla_resena {
     width: 90%;
     height: auto;
     margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 .datos_de_la_resena {
@@ -243,18 +102,20 @@ main {
 .usuario input {
     width: 70%;
     margin-bottom: 0;
+        border-radius: 15px;
+
 }
 
 .asunto {
     display: flex;
     flex-direction: row;
     width: 30%;
-    margin-left: 5%;
+    margin-left: 0%;
     align-items: center;
 }
 
 .asunto p {
-    width: 15%;
+    width: 25%;
     font-family: "nexa", sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -265,19 +126,19 @@ main {
 .asunto input {
     width: 85%;
     margin-bottom: 0;
-
+    border-radius: 15px;
 }
 
 .fecha {
     display: flex;
     flex-direction: row;
     width: 15%;
-    margin-left: 5%;
+    margin-left: 0%;
     align-items: center;
 }
 
 .fecha p {
-    width: 25%;
+    width: 45%;
     font-family: "nexa", sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -292,13 +153,15 @@ main {
     font-family: "nexa", sans-serif;
     font-weight: 400;
     font-style: italic;
+        border-radius: 15px;
+
 }
 
 .calificacion {
     width: 20%;
     display: flex;
     flex-direction: row;
-    margin-left: 5%;
+    margin-left: 1%;
     align-items: center;
 }
 
@@ -342,4 +205,48 @@ main {
     font-style: italic;
 
     font-size: 24pt;
+}
+
+.botones_de_nueva_reseña
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    /*justify-content: center;*/
+    justify-content: space-between;
+
+}
+
+.publicar_resena , .cancelar_resena
+{
+    width: 35%;
+    font-size:2em;
+    font-family: fuenteTekoBold;
+    height: 5%;
+    margin-top: 5%;
+}
+
+.publicar_resena
+{
+    background-color: #2f3a3f;
+    color: #c1c1c1;
+}
+
+.publicar_resena:hover
+{
+    background-color: #2f3a3f;
+    color: #c2a83e;
+}
+
+.cancelar_resena 
+{
+    background-color: #2f3a3f;
+    color: #c1c1c1;
+}
+
+.cancelar_resena:hover
+{
+    background-color: #8b0000;
+    color: #c1c1c1;
 }

@@ -153,6 +153,7 @@ input{
 {
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #c2a83e;
     height: 100px;
     width: 100%;
@@ -164,6 +165,7 @@ input{
 {
     margin-left: 25px;
     font-family: fuenteTekoBold;
+    font-size: 5em;
 }
 
 .call_to_action_2
@@ -223,21 +225,6 @@ input{
     font-size: 2em;
     font-family: fuenteCinzelSemiBold;
     color: #e2d6b5;
-}
-
-.categoria_de_libros_herejia_de_horus
-{
-    width: 100%;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #2b0a14 ;
-}
-
-.categoria_de_libros_herejia_de_horus h1
-{
-    color: goldenrod;
 }
 
 .contenedor_libros

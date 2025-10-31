@@ -1,7 +1,7 @@
 {
     "herejia_de_horus": [
         {
-            "id": "1",
+            "id": 1,
             "titulo": "Horus Señor de la Guerra",
             "autor": "Dan Abnett",
             "fecha": "8 julio 2016",
@@ -19,7 +19,7 @@
             ]
         },
         {
-            "id": "2",
+            "id": 2,
             "titulo": "Falsos Dioses",
             "autor": "Graham McNeill",
             "fecha": "15/03/2016",
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "id": "3",
+            "id": 3,
             "titulo": "Galaxia en Llamas",
             "autor": "Ben Counter",
             "fecha": "15/03/2016",
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "id": "4",
+            "id": 4,
             "titulo": "La Huida De Eisenstein",
             "autor": "",
             "fecha": "15/03/2016",
@@ -73,7 +73,7 @@
             ]
         },
         {
-            "id": "5",
+            "id": 5,
             "titulo": "Fulgrim",
             "autor": "Graham McNeill",
             "fecha": "05/07/2007",
@@ -93,7 +93,7 @@
     ],
     "the_siege_of_terra": [
         {
-            "id": "1",
+            "id": 1,
             "titulo": "La Guerra Solar",
             "autor": "John French",
             "fecha": "26/04/2023",
@@ -111,7 +111,7 @@
             ]
         },
         {
-            "id": "2",
+            "id": 2,
             "titulo": "Los Perdidos Y Los Condenados",
             "autor": "Guy Haley",
             "fecha": "22/11/2023",
@@ -129,7 +129,7 @@
             ]
         },
         {
-            "id": "3",
+            "id": 3,
             "titulo": "El Primer Muro",
             "autor": "Gav Thorpe",
             "fecha": "13/03/2024",
@@ -147,7 +147,7 @@
             ]
         },
         {
-            "id": "4",
+            "id": 4,
             "titulo": "Saturnino",
             "autor": "Dan Abnett",
             "fecha": "19/03/2025",
@@ -166,7 +166,7 @@
             ]
         },
         {
-            "id": "5",
+            "id": 5,
             "titulo": "Mortis",
             "autor": "John French",
             "fecha": "25/06/2025",

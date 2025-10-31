@@ -38,6 +38,7 @@
     display: block;
     color: black;
     padding: 5px;
+    display: none;
 }
 
 .contenedor_campos_resena
@@ -47,6 +48,7 @@
     width: 80%;
     height: 80vh;
     background-color: #f2f2f2;
+    border-radius: 10px;
 }
 
 .titulo_y_logo
@@ -109,15 +111,20 @@
     width: 25%;
 }
 
-.calificacion_de_la_resena img
+.calificacion_de_la_resena
 {
-    width: 5%;
-    color: #5e7c92;
+    margin-bottom: 50px;
 }
 
 .calificacion_de_la_resena svg
 {
-    width: 5%;
+    width: 3%;
+    fill: #536068;
+}
+
+.calificacion_de_la_resena svg:hover
+{
+    width: 4%;
     fill: #536068;
 }
 

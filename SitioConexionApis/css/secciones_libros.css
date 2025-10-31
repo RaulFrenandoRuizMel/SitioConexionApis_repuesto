@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.categoria_de_libros_herejia_de_horus
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2b0a14 ;
+}
+
+.categoria_de_libros_the_siege_of_terra
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #7a1c1c ;
+}
+
+.categoria_de_libros_era_indomitus
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3b1d47 ;
+}
+
+.categoria_de_libros_astartes_leales
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2b0a14 ;
+}
+
+.categoria_de_libros_astartes_traidores
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #8b0000 ;
+}
+
+
+.categoria_de_libros_astartes_leales h1,.categoria_de_libros_astartes_traidores h1, .categoria_de_libros_era_indomitus h1, .categoria_de_libros_the_siege_of_terra h1, .categoria_de_libros_herejia_de_horus h1
+{
+    color: goldenrod;
+    margin-left: 35px;
+}

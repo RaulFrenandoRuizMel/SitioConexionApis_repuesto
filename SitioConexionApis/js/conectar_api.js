@@ -11,7 +11,8 @@ plantilla_libro.remove();
 
 
 fetch("http://localhost:3000/").then(recurso => recurso.json()).then(archivo => {
-    for (i = 0; i < archivo.herejia_de_horus.length; i++) {
+    for (let i = 0; i < archivo.herejia_de_horus.length; i++) {
+
         let clone = plantilla_libro.cloneNode(true)
         contenedor_libros.appendChild(clone)
 
@@ -26,6 +27,11 @@ fetch("http://localhost:3000/").then(recurso => recurso.json()).then(archivo => 
 
         const portada_del_libro = clone.querySelector(".portada");
         portada_del_libro.style.backgroundImage = "url('http://localhost:3000/" + archivo.herejia_de_horus[i].portada + ".jpg" + "')";
+
+        clone.addEventListener("click", () => {
+            // Redirige a fichaLibro.html con el id y la categoría
+            window.location.href = `fichaLibro.html?id=${archivo.herejia_de_horus[i].id}&categoria=herejia_de_horus`;
+        });
     }
 
     for (i = 0; i < archivo.the_siege_of_terra.length; i++) {

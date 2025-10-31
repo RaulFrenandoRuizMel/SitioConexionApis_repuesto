@@ -5,10 +5,10 @@ header.innerHTML = `<div class="logo_header">
         </div>
         <nav class="navegador_header">
             <div class="activo">
-                <a href="">HOME</a>
+                <a href="index.html">HOME</a>
             </div>
             <div class="enlaces">
-                <a href="">RESEÑAS</a>
+                <a href="reseñas.html">RESEÑAS</a>
             </div>
             <div class="enlaces">
                 <a href="">MI CUENTA</a>
