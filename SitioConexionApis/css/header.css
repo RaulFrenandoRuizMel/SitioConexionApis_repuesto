@@ -15,14 +15,16 @@ header
 {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: #2f3a3f;
     width: 100%;
     height: 100px;
+    align-items: center;
 }
 
 .navegador_header
 {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 30%;
     height: 90%;
@@ -51,7 +53,7 @@ header
 
 .logo_header
 {
-    padding: 1.5%;
+    padding: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +63,7 @@ header
 
 .logo_header img
 {
-    width: 90%;
+    width: 80%;
 }
 
 

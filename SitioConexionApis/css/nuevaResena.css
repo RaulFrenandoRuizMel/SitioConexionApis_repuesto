@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@font-face {
+    font-family: fuenteTekoMedium;
+    src: url(../fuentes/teko/Teko-Medium.ttf);
+}
+
+@font-face {
+    font-family: fuenteTekoBold;
+    src: url(../fuentes/teko/Teko-Bold.ttf);
+}
+
+@font-face {
+    font-family: fuenteCinzelBlack;
+    src: url(../fuentes/cinzel/Cinzel-Black.otf);
+}
+
+@font-face {
+    font-family: fuenteCinzelSemiBold;
+    src: url(../fuentes/cinzel/Cinzel-Regular.otf);
+}
+
+.añadir_nueva_resena
+{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(95, 95, 95, 0.534);
+    display: block;
+    color: black;
+    padding: 5px;
+}
+
+.contenedor_campos_resena
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80vh;
+    background-color: #f2f2f2;
+}
+
+.titulo_y_logo
+{
+    width: 96%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+
+.titulo_y_logo h1
+{
+    margin-left: auto;
+    width: 70%;
+    height: auto;
+    font-family: fuenteTekoBold;
+    font-size: 4em;
+    color: #5e7c92;
+}
+
+.titulo_y_logo img
+{
+    width: 25%;
+    height: auto;
+}
+
+.libro_a_reseñar, .Usuario_reseñador, .asunto_de_la_reseña, .fecha_de_la_reseña, .calificacion_de_la_resena, .texto_de_la_resena_emergente
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 2%;
+}
+
+.texto_de_la_resena_emergente
+{
+    align-items:flex-start;
+
+}
+
+.libro_a_reseñar input, .Usuario_reseñador input, .asunto_de_la_reseña input, .fecha_de_la_reseña input, .calificacion_de_la_resena input, .texto_de_la_resena_emergente input
+{
+    border-radius: 5px;
+    margin: 0;
+    width: 25%;
+}
+
+.texto_de_la_resena_emergente input
+{
+    width: 70%;
+    height: 250px;
+}
+
+.libro_a_reseñar p, .Usuario_reseñador p, .asunto_de_la_reseña p, .fecha_de_la_reseña p, .calificacion_de_la_resena p, .texto_de_la_resena_emergente p
+{
+    margin: 0;
+    width: 25%;
+}
+
+.calificacion_de_la_resena img
+{
+    width: 5%;
+    color: #5e7c92;
+}
+
+.calificacion_de_la_resena svg
+{
+    width: 5%;
+    fill: #536068;
+}
+
+.botones_de_nueva_reseña
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+}
+
+.publicar_resena , .cancelar_resena
+{
+    width: 45%;
+    font-size: 4em;
+    font-family: fuenteTekoBold;
+}
+
+.publicar_resena
+{
+    background-color: #2f3a3f;
+    color: #c1c1c1;
+}
+
+.publicar_resena:hover
+{
+    background-color: #2f3a3f;
+    color: #c2a83e;
+}
+
+.cancelar_resena 
+{
+    background-color: #2f3a3f;
+    color: #c1c1c1;
+}
+
+.cancelar_resena:hover
+{
+    background-color: #8b0000;
+    color: #c1c1c1;
+}
+
+

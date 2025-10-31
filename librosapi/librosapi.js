@@ -18,8 +18,23 @@ const server = http.createServer((request, response) => {
                 response.end(JSON.stringify(archivo))
                 return 0
             }
+            
+            fs.readFile("./img" + request.url, (err, file) => {
+                if(err){
+                    response.statusCode = 404
+                    response.setHeader("Content-Type", "application/json")
+
+                    const objeto_error = {
+                        "mensaje" : "esa imagen no la tengo"
+                    }
+                    response.end(JSON.stringify(objeto_error))
+                    return 0
+                }
+
                 response.statusCode = 200
                 response.end(file)
+            })
+                
         break;
         case "POST":
 

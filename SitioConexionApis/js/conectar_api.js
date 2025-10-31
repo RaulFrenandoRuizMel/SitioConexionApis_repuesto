@@ -23,6 +23,9 @@ fetch("http://localhost:3000/").then(recurso => recurso.json()).then(archivo => 
 
         const reseñas_del_libro = clone.querySelector(".reseñas_del_libro");
         reseñas_del_libro.innerHTML = archivo.herejia_de_horus[i].calificacion;
+
+        const portada_del_libro = clone.querySelector(".portada");
+        portada_del_libro.style.backgroundImage = "url('http://localhost:3000/" + archivo.herejia_de_horus[i].portada + ".jpg" + "')";
     }
 
     for (i = 0; i < archivo.the_siege_of_terra.length; i++) {
@@ -37,6 +40,9 @@ fetch("http://localhost:3000/").then(recurso => recurso.json()).then(archivo => 
 
         const reseñas_del_libro = clone.querySelector(".reseñas_del_libro");
         reseñas_del_libro.innerHTML = archivo.the_siege_of_terra[i].calificacion;
+
+        const portada_del_libro = clone.querySelector(".portada");
+        portada_del_libro.style.backgroundImage = "url('http://localhost:3000/" + archivo.the_siege_of_terra[i].portada + ".jpg" + "')";
     }
 
     for (i = 0; i < archivo.era_indomitus.length; i++) {
@@ -51,6 +57,9 @@ fetch("http://localhost:3000/").then(recurso => recurso.json()).then(archivo => 
 
         const reseñas_del_libro = clone.querySelector(".reseñas_del_libro");
         reseñas_del_libro.innerHTML = archivo.era_indomitus[i].calificacion;
+
+        const portada_del_libro = clone.querySelector(".portada");
+        portada_del_libro.style.backgroundImage = "url('http://localhost:3000/" + archivo.era_indomitus[i].portada + ".jpg" + "')";
     }
 
     for (i = 0; i < archivo.astartes_leales.length; i++) {
@@ -65,6 +74,11 @@ fetch("http://localhost:3000/").then(recurso => recurso.json()).then(archivo => 
 
         const reseñas_del_libro = clone.querySelector(".reseñas_del_libro");
         reseñas_del_libro.innerHTML = archivo.astartes_leales[i].calificacion;
+
+        const portada_del_libro = clone.querySelector(".portada");
+        portada_del_libro.style.backgroundImage = "url('http://localhost:3000/" + archivo.astartes_leales[i].portada + ".jpg" + "')";
+
+
     }
 
     for (i = 0; i < archivo.astartes_traidores.length; i++) {
@@ -79,5 +93,8 @@ fetch("http://localhost:3000/").then(recurso => recurso.json()).then(archivo => 
 
         const reseñas_del_libro = clone.querySelector(".reseñas_del_libro");
         reseñas_del_libro.innerHTML = archivo.astartes_traidores[i].calificacion;
+
+        const portada_del_libro = clone.querySelector(".portada");
+        portada_del_libro.style.backgroundImage = "url('http://localhost:3000/" + archivo.astartes_traidores[i].portada + ".jpg" + "')";
     }
 })
